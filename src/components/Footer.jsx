@@ -62,22 +62,22 @@ export default function Footer() {
             <ul className="footer__contact">
               <li>
                 <span className="footer__contact-icon">📍</span>
-                Plot 14, Sector 63, Noida, UP – 201301
+                Kunal Park, Keshav nagar, Chinchwad\Pune– 411033
               </li>
               <li>
                 <span className="footer__contact-icon">📞</span>
-                <a href="tel:+919004694244">+91 90046 94244</a>
+                <a href="tel:+919958168708">+91 9958168708</a>
               </li>
               <li>
                 <span className="footer__contact-icon">✉️</span>
-                <a href="mailto:info@apexsportsinfra.com">info@apexsportsinfra.com</a>
+                <a href="mailto:Fushionsports99@gmail.com">Fushionsports99@gmail.com</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="footer__bottom">
-          <p>© {new Date().getFullYear()} Apex Sports Infra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Fushion Sports Infra. All rights reserved.</p>
           <p>Crafted with care for sports infrastructure excellence.</p>
         </div>
       </div>

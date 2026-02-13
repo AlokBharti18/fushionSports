@@ -30,7 +30,7 @@ export default function Navbar() {
         <Link to="/" className="navbar__logo">
           <span className="navbar__logo-mark">⬡</span>
           <span className="navbar__logo-text">
-            <span className="navbar__logo-bold">APEX</span>
+            <span className="navbar__logo-bold">FUSHION</span>
             <span className="navbar__logo-thin"> SPORTS INFRA</span>
           </span>
         </Link>

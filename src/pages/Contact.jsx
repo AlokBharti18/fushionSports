@@ -3,9 +3,9 @@ import ContactForm from '../components/ContactForm';
 import './Contact.css';
 
 const contactInfo = [
-  { icon: '📍', label: 'Visit Us', value: 'Plot 14, Sector 63, Noida\nUttar Pradesh – 201301', link: null },
-  { icon: '📞', label: 'Call Us', value: '+91 90046 94244', link: 'tel:+919004694244' },
-  { icon: '✉️', label: 'Email Us', value: 'info@apexsportsinfra.com', link: 'mailto:info@apexsportsinfra.com' },
+  { icon: '📍', label: 'Visit Us', value: 'Kunal Park, Keshav nagar, Chinchwad\Pune– 411033', link: null },
+  { icon: '📞', label: 'Call Us', value: '+91 9958168708', link: null },
+  { icon: '✉️', label: 'Email Us', value: 'Fushionsports99@gmail.com', link: null },
   { icon: '🕐', label: 'Business Hours', value: 'Mon–Sat: 9:00 AM – 6:00 PM', link: null },
 ];
 
@@ -57,9 +57,9 @@ export default function Contact() {
               <div className="contact-map__placeholder">
                 <div className="contact-map__overlay">
                   <span className="contact-map__pin" aria-hidden="true">📍</span>
-                  <span className="contact-map__text">Sector 63, Noida, UP</span>
+                  <span className="contact-map__text">Keshav Nagar, Chinchwad, Pune</span>
                   <a
-                    href="https://maps.google.com/?q=Sector+63+Noida"
+                    href="https://maps.google.com/?q=Keshav+Nagar+Chinchwad+Pune"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary contact-map__btn"
@@ -71,7 +71,7 @@ export default function Contact() {
               {/* Embed: replace src with real Google Maps embed URL */}
               <iframe
                 title="Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3068853745136!2d77.37274281508303!3d28.626734082423003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a8c3b27fef%3A0xca7a93c24f22d3e5!2sSector%2063%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?q=18.5320,73.9444&z=15&output=embed"
                 className="contact-map__iframe"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
