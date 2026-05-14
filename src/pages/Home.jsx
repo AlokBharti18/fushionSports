@@ -77,7 +77,7 @@ export default function Home() {
             <SectionTitle
               tag="Who We Are"
               title="Sports Infrastructure Excellence"
-              subtitle="Apex Sports Infra has been transforming spaces across 18+ states for over 12 years. We deliver end-to-end solutions — from design to handover — for schools, hotels, academies, and corporate campuses."
+              subtitle="Fushion Sports and Flooring has been transforming spaces across 18+ states for over 12 years. We deliver end-to-end solutions — from design to handover — for schools, hotels, academies, and corporate campuses."
             />
             <ul className="about-strip__points">
               {[

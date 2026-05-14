@@ -27,7 +27,7 @@ export default function Footer() {
             <Link to="/" className="footer__logo">
               <span className="footer__logo-mark">⬡</span>
               <span className="footer__logo-text">
-                <strong>APEX</strong> SPORTS INFRA
+                <strong>FUSHION SPORTS</strong> AND FLOORING
               </span>
             </Link>
             <p className="footer__tagline">
@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>© {new Date().getFullYear()} Fushion Sports Infra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Fushion Sports and Flooring. All rights reserved.</p>
           <p>Crafted with care for sports infrastructure excellence.</p>
         </div>
       </div>

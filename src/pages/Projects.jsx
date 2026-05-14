@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { projects, projectCategories } from '../data/siteData';
 import './Projects.css';
+// import project1 from '../assests/projects/project1.jpg.jpg';
 
 export default function Projects() {
   const [active, setActive] = useState('All');

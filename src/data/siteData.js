@@ -76,15 +76,15 @@ export const services = [
 
 // ── Projects ───────────────────────────────────────────────
 export const projects = [
-  { id: 1, title: 'DLF Sports Complex', location: 'Gurugram, Haryana', category: 'Football Turf', img: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=600&q=80' },
-  { id: 2, title: 'Sunshine Academy', location: 'Noida, UP', category: 'Basketball Court', img: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80' },
-  { id: 3, title: 'Royal Palm Resort', location: 'Lonavala, Maharashtra', category: 'Artificial Grass', img: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80' },
-  { id: 4, title: 'IIT Delhi Campus', location: 'New Delhi', category: 'Tennis Court', img: 'https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=600&q=80' },
-  { id: 5, title: 'Green Valley School', location: 'Pune, Maharashtra', category: 'Kids Play Area', img: 'https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?w=600&q=80' },
-  { id: 6, title: 'Marriott Sports Hub', location: 'Jaipur, Rajasthan', category: 'Gym Flooring', img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80' },
-  { id: 7, title: 'Birla Cricket Academy', location: 'Kolkata, WB', category: 'Cricket Turf', img: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80' },
-  { id: 8, title: 'Elite Fitness Center', location: 'Bengaluru, KA', category: 'Gym Flooring', img: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80' },
-  { id: 9, title: 'Phoenix Padel Club', location: 'Hyderabad, TS', category: 'Padel Court', img: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&q=80' },
+  { id: 1, title: 'DLF Sports Complex', location: 'Gurugram, Haryana', category: 'Football Turf', img: '/projects/project1.jpg'},
+  { id: 2, title: 'Sunshine Academy', location: 'Noida, UP', category: 'Basketball Court', img: '/projects/project2.jpg' },
+  { id: 3, title: 'Royal Palm Resort', location: 'Lonavala, Maharashtra', category: 'Artificial Grass', img: '/projects/project3.jpg' },
+  { id: 4, title: 'IIT Delhi Campus', location: 'New Delhi', category: 'Tennis Court', img: '/projects/project4.jpg' },
+  { id: 5, title: 'Green Valley School', location: 'Pune, Maharashtra', category: 'Kids Play Area', img: '/projects/project5.jpg' },
+  { id: 6, title: 'Marriott Sports Hub', location: 'Jaipur, Rajasthan', category: 'Gym Flooring', img: '/projects/project6.jpg' },
+  { id: 7, title: 'Birla Cricket Academy', location: 'Kolkata, WB', category: 'Cricket Turf', img: '/projects/project7.jpg' },
+  { id: 8, title: 'Elite Fitness Center', location: 'Bengaluru, KA', category: 'Gym Flooring', img: '/projects/project8.jpg' },
+  { id: 9, title: 'Phoenix Padel Club', location: 'Hyderabad, TS', category: 'Padel Court', img: '/projects/project9.jpg' },
 ];
 
 export const projectCategories = ['All', 'Football Turf', 'Basketball Court', 'Tennis Court', 'Artificial Grass', 'Cricket Turf', 'Gym Flooring', 'Kids Play Area', 'Padel Court'];

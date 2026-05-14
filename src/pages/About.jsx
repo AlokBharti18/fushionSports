@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import { team, stats } from '../data/siteData';
 import './About.css';
+import logo from '../assests/logo.png.png'
 
 const values = [
   { icon: '🏆', title: 'Excellence', desc: 'We never compromise on material quality or workmanship. Every surface we install meets or exceeds international standards.' },
@@ -24,7 +25,7 @@ export default function About() {
       <section className="page-hero" aria-label="About page header">
         <div className="container">
           <span className="page-hero__tag">Our Story</span>
-          <h1 className="page-hero__title">ABOUT APEX</h1>
+          <h1 className="page-hero__title">ABOUT FUSHION SPORTS AND FLOORING</h1>
           <p className="page-hero__subtitle">
             Building world-class sports facilities that inspire athletes and transform communities across India.
           </p>
@@ -38,10 +39,10 @@ export default function About() {
             <SectionTitle
               tag="Company Overview"
               title="Who We Are"
-              subtitle="Apex Sports Infra is India's trusted end-to-end sports infrastructure partner."
+              subtitle="Fushion Sports and Flooring is India's trusted end-to-end sports infrastructure partner."
             />
             <p className="about-overview__body">
-              Founded in 2012, Apex Sports Infra was born from a simple belief: every athlete deserves a world-class playing surface. We started with a single basketball court installation in Noida and have since grown into one of India's most respected sports infrastructure companies.
+              Founded in 2012, Fushion Sports and Flooring was born from a simple belief: every athlete deserves a world-class playing surface. We started with a single basketball court installation in Noida and have since grown into one of India's most respected sports infrastructure companies.
             </p>
             <p className="about-overview__body">
               Today, our portfolio spans 350+ projects across schools, universities, luxury resorts, corporate campuses, and professional sports academies in 18+ states. We offer turnkey solutions — from site assessment and design to installation, commissioning, and post-handover maintenance.
@@ -49,8 +50,8 @@ export default function About() {
           </div>
           <div className="about-overview__img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1587095951604-b9d924a3fda0?w=700&q=80"
-              alt="Apex Sports Infra team at work"
+              src={logo}
+              alt="Fushion Sports and Flooring team at work"
               className="about-overview__img"
             />
           </div>
